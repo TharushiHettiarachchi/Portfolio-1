@@ -1,0 +1,240 @@
+@font-face {
+    font-family: "PoppinsL";
+    src: url(font/Poppins-Light.ttf);
+}
+
+@font-face {
+    font-family: "Dancing";
+    src: url(font/DancingScript-VariableFont_wght.ttf);
+}
+
+* {
+    font-family: "PoppinsL";
+}
+
+.video-background {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+
+body {
+    margin: 0;
+    padding: 0px;
+}
+
+.div2 {
+    height: 100vh;
+    width: 100vw;
+    /* background-color: transparent; */
+    background-color: rgba(255, 255, 255, 0.294);
+    display: flex;
+    flex-direction: row;
+}
+
+.div3 {
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: radial-gradient(white);
+
+}
+
+.div4 {
+    height: 300px;
+    width: 300px;
+    background-image: url(resource/image1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 100%;
+}
+
+.div5 {
+    /* background-image: url(resource/Facebook\ Post\ 940x788\ px\ \(4\).png); */
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+}
+
+.div6 {
+    width: 100%;
+    height: 75px;
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.div7 {
+    font-weight: bolder;
+    font-size: 20px;
+    transition-duration: 0.8s;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.486);
+}
+
+.div7:hover {
+    cursor: pointer;
+    font-size: 22px;
+}
+
+.div8 {
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+    font-size: 36px;
+    letter-spacing: 3px;
+    font-family: "PoppinsL";
+    font-weight: bolder;
+    color: white;
+    text-shadow: 1px 6px 1px rgba(0, 0, 0, 0.486);
+}
+
+.div9 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.div10 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  
+    background-image: url(resource/new.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    /* background-color: red; */
+    align-items: center;
+    justify-content: center;
+}
+
+.div11 {
+    width: 90%;
+    font-weight: bold;
+    text-align: justify;
+    font-size: 16px;
+    color: rgb(13, 12, 12);
+
+    padding-top: 40px;
+
+    padding-bottom: 40px;
+    text-shadow: 1px 1px 1px rgb(255, 255, 255);
+}
+
+.div12 {
+    bottom: 0;
+    position: fixed;
+    color: rgba(255, 255, 255, 0.622);
+    font-size: 14px;
+    width: 100%;
+    text-align: center;
+}
+.div13{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 50px;
+    text-shadow: 1px 5px 1px rgba(0, 0, 0, 0.417);
+
+}
+.div14{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    width: 10%;
+}
+.div15{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    width: 30%;
+    text-shadow: 1px 3px 1px rgba(0, 0, 0, 0.417);
+   
+}
+.div16{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 80vh;
+}
+.div17{
+    width: 100%;
+    display: none;
+   
+}
+.icon1 {
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 26px;
+    color: white;
+    text-shadow: 1px 12px 1px rgba(0, 0, 0, 0.486);
+}
+
+.icon1:hover {
+    cursor: pointer;
+    transition: all .7s ease-in-out;
+    transform: scale(1.1);
+    text-shadow: 1px 10px 1px rgba(0, 0, 0, 0.486);
+}
+.icon2{
+    font-size: 30px;
+    color: white;
+    padding: 10px;
+}
+@media only screen and (max-width: 600px) {
+.div2{
+    flex-direction: column;
+    height: auto;
+}
+
+.div3{
+    width: 100vw;
+    height: auto;
+}
+.div6{
+    display: none;
+}
+.div17{
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.div10{
+    background-image: none;
+    background-color: rgba(255, 255, 255, 0.706);
+}
+.div14{
+    width: auto;
+  
+    padding: 5px;
+
+}
+.div15{
+    width: auto;
+   
+    padding: 5px;
+    
+}
+.div12{
+    position: absolute;
+    bottom: auto;
+}
+}

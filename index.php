@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tharushi Hettiarachchi</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="resource/image1.jpg">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <div class="div1">
+        <video class="video-background" autoplay muted loop>
+            <source src="resource/clip1.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <div class="div2">
+        <div class="div3">
+            <div class="div17">
+            <i class="bi bi-list icon2"></i>
+            </div>
+            <div class="div4"></div>
+            <div class="div8">THARUSHI HETTIARACHCHI</div>
+            <div class="div9">
+                <i class="bi bi-facebook icon1"></i>
+                <i class="bi bi-linkedin icon1"></i>
+                <i class="bi bi-github icon1"></i>
+                <i class="bi bi-youtube icon1"></i>
+                <i class="bi bi-twitter icon1"></i>
+                <i class="bi bi-instagram icon1"></i>
+            </div>
+        </div>
+        <div class="div3">
+            <div class="div5">
+                <div class="div6">
+                    <div class="div7">HOME</div>
+                    <div class="div7">PROJECTS</div>
+                    <div class="div7">CONTACT</div>
+                </div>
+                <div class="div16">
+                    <div class="div10">
+                        <div class="div11">
+                            HEY THERE! I'M THARUSHI HETTIARACHCHI, A PASSIONATE STUDENT AT THE UNIVERSITY OF KELANIYA, DIVING INTO THE WORLD OF WEB AND APPLICATION DEVELOPMENT. THIS SPACE IS WHERE MY ACADEMIC PURSUITS MEET MY CODING ADVENTURES. JOIN ME IN EXPLORING THE REALMS OF TECHNOLOGY AND LEARNING. LET'S TURN IDEAS INTO INTERACTIVE EXPERIENCES!
+                        </div>
+                    </div>
+                    <div class="div13">
+                        <div class="div14">4 +</div>
+                        <div class="div15">PROJECTS</div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="div12">ALL COPYRIGHTS RESERVED | DEVELOPED BY WEBSTUDIO</div>
+
+</body>
+
+</html>
